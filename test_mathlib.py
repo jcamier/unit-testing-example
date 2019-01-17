@@ -9,3 +9,8 @@ def test_calc_total():
 def test_calc_multiply():
     total = mathlib.calc_multiply(10,3)
     assert total == 30
+
+
+class TestClass:
+    def test_me(self):
+        assert True
