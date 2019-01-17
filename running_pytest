@@ -1,0 +1,9 @@
+# Ensure that python file starts with "test_<file_name.py>"
+# Ensure that all functions start with "test_<function_name>"
+
+py.test
+py.test -v # verbose
+python -m pytest # recursively through all the files
+
+
+
